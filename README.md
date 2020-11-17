@@ -8,10 +8,14 @@ Conditions
 - Factor of 7, print 'Plong'
 - Else, print original number as string
 
-Example
-28 is factor of 1,2,4,7,14,28, print 'Plong'
-30 is factor of 1,2,3,5,6,10,15,30, print 'PlingPlang'
-34 is factor of 1,2,17,34, print '34'
+## Example
+- 28 is factor of 1,2,4,7,14,28, print 'Plong'
+- 30 is factor of 1,2,3,5,6,10,15,30, print 'PlingPlang'
+- 34 is factor of 1,2,17,34, print '34'
 
 Dev
+(No need for this too complex)
 https://docs.python.org/3.3/library/argparse.html
+
+Mocking input in python
+https://stackoverflow.com/questions/21046717/python-mocking-raw-input-in-unittests
