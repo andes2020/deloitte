@@ -13,9 +13,20 @@ Conditions
 - 30 is factor of 1,2,3,5,6,10,15,30, print 'PlingPlang'
 - 34 is factor of 1,2,17,34, print '34'
 
-Dev
+## Dev
+### Unit testing
+```bash
+python -m unittest test_raindrop
+```
 (No need for this too complex)
 https://docs.python.org/3.3/library/argparse.html
 
 Mocking input in python
+```
 https://stackoverflow.com/questions/21046717/python-mocking-raw-input-in-unittests
+```
+
+Mocking exception raise
+```
+https://stackoverflow.com/questions/6103825/how-to-properly-use-unit-testings-assertraises-with-nonetype-objects
+```

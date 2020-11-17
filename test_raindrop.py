@@ -11,5 +11,13 @@ class TestStringMethods(unittest.TestCase):
                 rd.calculate_rain_drop()
 
     def test_28(self):
-        with unittest.mock.patch('builtins.input', return_value='28'):
-            self.assertEqual(rd.calculate_rain_drop(), 28)
+        with unittest.mock.patch('builtins.input', return_value=28):
+            self.assertEqual(rd.calculate_rain_drop(), 'Plong')
+    
+    def test_30(self):
+        with unittest.mock.patch('builtins.input', return_value=30):
+            self.assertEqual(rd.calculate_rain_drop(), 'PlingPlang')
+    
+    def test_34(self):
+        with unittest.mock.patch('builtins.input', return_value=34):
+            self.assertEqual(rd.calculate_rain_drop(), '34')
