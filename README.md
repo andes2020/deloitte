@@ -13,6 +13,13 @@ Conditions
 - 30 is factor of 1,2,3,5,6,10,15,30, print 'PlingPlang'
 - 34 is factor of 1,2,17,34, print '34'
 
+## How to run the program
+Prerequisite:
+Python3 is installed, if not, please visit https://www.python.org/downloads/
+```bash
+python raindrop.py
+```
+
 ## Dev
 ### Unit testing
 ```bash
