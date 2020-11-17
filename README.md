@@ -17,6 +17,7 @@ Conditions
 Prerequisite:
 Python3 is installed, if not, please visit https://www.python.org/downloads/
 ```bash
+pip install -r requirements.txt
 python raindrop.py
 ```
 
@@ -24,6 +25,11 @@ python raindrop.py
 ### Unit testing
 ```bash
 python -m unittest test_raindrop
+```
+
+### Linting
+```bash
+pylint raindrop.py
 ```
 (No need for this too complex)
 https://docs.python.org/3.3/library/argparse.html
