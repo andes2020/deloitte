@@ -43,3 +43,8 @@ Mocking exception raise
 ```
 https://stackoverflow.com/questions/6103825/how-to-properly-use-unit-testings-assertraises-with-nonetype-objects
 ```
+
+W0707: Consider explicitly re-raising using the 'from' keyword (raise-missing-from)
+```
+https://stackoverflow.com/questions/24752395/python-raise-from-usage
+```
